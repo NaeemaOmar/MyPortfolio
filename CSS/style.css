@@ -1,0 +1,12 @@
+:root {
+    --darkestGreen: #011E02;
+    --brightGreen: #0BF913;
+}
+
+.darkestGreenBg{
+    background-color: var(--darkestGreen);
+}
+
+.brighttGreenBg{
+    background-color: var(--brightGreen);
+}
