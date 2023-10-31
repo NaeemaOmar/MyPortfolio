@@ -1,8 +1,12 @@
 :root {
-    --darkestGreen: #011E02;
-    --brightGreen: #0BF913;
+    --darkestGreen: #024104;
+    --brightGreen: #c0f0c2;
+    --veryGreen: #0BF913;
 }
 
+.veryGreenBg {
+    background-color: var(--veryGreen);
+}
 .darkestGreenBg{
     background-color: var(--darkestGreen);
 }
@@ -10,3 +14,30 @@
 .brighttGreenBg{
     background-color: var(--brightGreen);
 }
+
+.logoMinHeight {
+    min-height: 40px;
+}
+
+.logoMaxWidth {
+    max-width: 91px;
+}
+
+.logoDivWidth {
+    max-width: fit-content;
+}
+
+.ingridDarling {
+    font-family: Ingrid Darling;
+}
+
+.balthazar {
+    font-family: Balthazar;
+}
+
+.darkestGreenTxt {
+    color: var(--brightGreen);
+}
+
+
+
