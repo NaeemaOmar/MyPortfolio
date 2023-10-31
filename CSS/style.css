@@ -39,5 +39,10 @@
     color: var(--brightGreen);
 }
 
+.boxShadow {
+    box-shadow: 10px 10px rgb(191, 194, 202);
+}
 
-
+.textCenter {
+    text-align: center;
+}
