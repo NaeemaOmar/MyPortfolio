@@ -96,11 +96,69 @@
 
         </div>
     </section>
-    <section class="container" id="Projects"></section>
+    <section class="container vh-100 mt-4" id="Projects"></section>
     <section class="container" id="Testimonials"></section>
     <section class="container" id="Work"></section>
     <section class="container" id="Skills"></section>
-    <section class="container" id="ContactMe"></section>
+    <section class="container" id="ContactMe">
+        <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Get in touch with me</h1>
+        <div class="row"> 
+            <!-- This div splits the pg in half -->
+            <div class="col-6">
+                <!-- This is the icons' 1/2 of the pg -->
+                <h1 class="ingridDarling text-center brighttGreenBg display-4 boxShadow">Contact me here</h1>
+                <div class="row mt-5 brighttGreenBg">
+                    <!-- this is the 1st row for the icons -->
+                    <div class="col-6">
+                        <img src="/WhatsappIcon.png" class="img-fluid darkestGreenBg iconMinHeight iconMaxWidth p-1" alt="">
+                    </div>
+                    <!-- This is the whatsapp icon -->
+                    <div class="col-6">
+                        <img src="/gmailIcon.png" class="img-fluid darkestGreenBg iconMinHeight iconMaxWidth" alt="">
+                    </div>
+                    <!-- This is the gmail icon -->
+                </div>
+                <div class="row mt-5 brighttGreenBg">
+                    <!-- this is the 2nd row for the icons -->
+                    <div class="col-6">
+                        <img src="/gitHubIcon.png" class="img-fluid darkestGreenBg iconMinHeight iconMaxWidth p-1" alt="">
+                    </div>
+                    <!-- This is the github icon -->
+                    <div class="col-6">
+                        <img src="/linkedInLogo.png" class="img-fluid darkestGreenBg iconMinHeight iconMaxWidth iconMaxHeight" alt="">
+                    </div>
+                    <!-- this is the linkedin icon -->
+                </div>
+            </div>
+            <!-- here ends the icons half of the pg -->
+            <div class="col-6">
+                <h3 class="ingridDarling text-center brighttGreenBg display-4 boxShadow">Alternatively, please complete the form below</h3>
+                <!-- here begins the contact me form -->
+                <form
+                class="mt-5 float-end"
+                action="https://formspree.io/f/xaygazkl"
+                method="POST"
+              >                
+               <label>
+                  <textarea class="darkestGreenBg rounded-5 text-center" id="inputBox" name="name" placeholder="name"></textarea>
+                </label>
+                <br><br>
+                <label>
+                  <textarea class="darkestGreenBg rounded-5 text-center" id="inputBox" name="surname" placeholder="surname"></textarea>
+                </label>
+                <br><br>
+               <label>
+                  <input class="darkestGreenBg rounded-5 text-center" id="inputBox" type="email" name="email" placeholder="Eg:emailAddress@gmail.com">
+                </label>
+                <br><br>
+                <label>
+                  <textarea class="darkestGreenBg rounded-5 text-center" id="inputBox" name="message" placeholder="Type your message here"></textarea>
+                </label>
+                <button type="submit" class="rounded brighttGreenBg">Send</button>
+              </form>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>

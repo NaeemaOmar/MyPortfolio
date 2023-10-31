@@ -46,3 +46,21 @@
 .textCenter {
     text-align: center;
 }
+
+.projectsCard {
+    height: 200px;
+    width: 150px;
+    background-color: var(--darkestGreen);
+}
+
+.iconMinHeight {
+    min-height: 80px;
+}
+
+.iconMaxWidth {
+    max-width: 100px;
+}
+
+.iconMaxHeight {
+    min-height: 80px;
+}
