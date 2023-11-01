@@ -1,5 +1,7 @@
 :root {
     --darkestGreen: #024104;
+    --softerDarkGreen:#024104b1;
+    /* Use this as the footer, maybe NavBar as well */
     --brightGreen: #c0f0c2;
     --veryGreen: #0BF913;
 }
@@ -67,4 +69,29 @@
 
 #form{
     margin-left: 35%;
+}
+
+.techSkillsMinWidth {
+    min-width: 100px;
+}
+
+.softSkillsMinWidth {
+    min-width: 230px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.card-img {
+    max-width: 110px;
+}
+
+#testimonialsCarousel{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.carouselImg {
+    max-height: 300px;
 }
