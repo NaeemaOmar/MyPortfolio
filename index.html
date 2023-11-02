@@ -12,49 +12,52 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand darkestGreenBg">
-        <!-- Adding sticky-top covers the headers when I use the navigation bar -->
-        <div class="container border logoDivWidth">
-            <a class="navbar-brand" href="">
-                <img src="/greenBg1.jpg" class="img-fluid logoMinHeight logoMaxWidth" alt="NaeemaOmar ">
-            </a>
-        </div>
-        <div class="container-fluid border p-0 m-0">
-            <ul class="navbar-nav ms-auto">
+    <nav class="navbar navbar-expand-lg darkestGreenBg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand brighttGreenTxt" href="#">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#Home" class="nav-link text-white">Home</a>
+                    <a href="#Home" class="nav-link brighttGreenTxt">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#About" class="nav-link text-white">About</a>
+                    <a href="#About" class="nav-link brighttGreenTxt">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Projects" class="nav-link text-white">Projects</a>
+                    <a href="#Projects" class="nav-link brighttGreenTxt">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Testimonials" class="nav-link text-white">Testimonials</a>
+                    <a href="#Testimonials" class="nav-link brighttGreenTxt">Testimonials</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Work" class="nav-link text-white">Work</a>
+                    <a href="#Work" class="nav-link brighttGreenTxt">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Skills" class="nav-link text-white">Skills</a>
+                    <a href="#Skills" class="nav-link brighttGreenTxt">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#ContactMe" class="nav-link text-white">Contact me</a>
+                    <a href="#ContactMe" class="nav-link brighttGreenTxt">Contact me</a>
                 </li>
             </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
-    <section class="container mt-4" id="Home">
+    <section class="container-fluid mt-5" id="Home">
         <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Hello there!</h1>
-        <div class="row">
-            <div class="col-6 mt-2">
-                <img src="/GreenBg2.jpg" class="img-fluid brighttGreenBg p-2" alt="">
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-6 mt-2 border mt-5 mb-5">
+                <img src="/landingPgPic.png" class="img-fluid brighttGreenBg p-2 landingPgPicWidth" alt="">
             </div>
-            <div class="col-6 mt-2">
+            <div class="col-6 mt-2 border mt-5 mb-5 landingPgTxtWidth">
                 <h1 class="ingridDarling text-center brighttGreenBg">Welcome to my online abode</h1>
-                <h1 class="balthazar">I am <span class="darkestGreenTxt">Naeema Omar</span>, an aspiring Full-Stack developer.</h1>
+                <div class="container introTxtWidth border introTextYCenter ">
+                    <h1 class="balthazar text-center">I am <span class="darkestGreenTxt">Naeema Omar</span>,</h1>
+                    <h1 class="balthazar text-center">an aspiring Full-Stack developer.</h1>
+                </div>
             </h1>
             </div>
         </div>
@@ -62,8 +65,9 @@
     </section>
     <section class="container-fluid mt-4" id="About">
         <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">All about me...</h1>
-        <div class="row d-flex justify-content-evenly">
-            <div class="col-3 mt-2 border">
+        <div class="container">
+            <div class="row d-flex justify-content-evenly">
+            <div id="aboutPgBorder" class="col-12 col-md-3 mt-3  rounded-5">
                 <h2 class="ingridDarling text-center display-2">Basic info</h2>
                 <p class="balthazar text-start">Name: Naeema Omar</p>  
                 <p class="balthazar text-start">D.O.B: 02/04/1999 (24yrs)</p> 
@@ -71,7 +75,7 @@
                 <p class="balthazar text-start">Language: English (fluent), Afrikaans (read & write), Arabic (read & write)</p>  
    
             </div>
-            <div class="col-4 mt-2 border">
+            <div id="aboutPgBorder" class="col-12 col-md-4 mt-3 rounded-5">
                 <h2 class="ingridDarling text-center display-2">Education history</h2>
                 <p class="balthazar text-start">2015: NSC, Islamia College</p>
                 <p class="balthazar text-start">2021-2022: BEng (civil), Stellenbosch University</p>
@@ -80,15 +84,50 @@
             </div>
         </div>
         <!-- end of row 1 -->
-        <div class="mt-3 rounded border">
-            <h2 class="ingridDarling text-center display-2">Personality & Characteristics</h2>
+        <div class="mt-3 rounded-5" id="aboutPgBorder">
+            <h2 class="ingridDarling text-center display-2">Fun info about me</h2>
             <p class="balthazar text-start">I am a curious and self-driven problem solver. I love learning new things and finding ways to apply that knowledge in a practical manner.</p>  
             <p class="balthazar text-start mt-0">My hobbies include reading, running and hiking. The longest hike I've been on was a 5 hour hike in the Tygerberg Nature Reserve while the most challenging hike I've been on was the Cecelia Forest's waterfall trial. Admittedly, this was because we got extremely lost. A hike that is still on my bucket list is the Crystal Pools trail in Gordon's Bay.</p> 
             <p class="balthazar text-start"></p> 
 
         </div>
+        </div>
+        
     </section>
-    <section class="container-fluid mt-4" id="Projects">
+    <section class="container-fluid mt-4" id="Work">
+        <div class="container-fluid">
+            <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Work Experience</h1>
+        </div>
+        <div class="container mt-5 rounded">
+            <!-- NB TO NOTE!!! m-auto centers containers that AREN'T in a row while d-flex
+                 + justify-content combo works for and w//in a row -->
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-3">
+                    <div class="container rounded-5" id="aboutPgBorder">
+                        <p class="balthazar mt-2">2016-2017: Cashier & Floor manager</p>
+                    </div>
+                      
+                </div>
+                <div class="col-3">
+                    <div class="container rounded-5" id="aboutPgBorder">
+                        <p class="balthazar mt-2">2018-present: Private tutor</p>
+                    </div>
+                    
+                </div>
+                <div class="col-3">
+                    <div class="container rounded-5" id="aboutPgBorder">
+                        <p class="balthazar mt-2">2022: SANZAF facilitator for academic support</p> 
+                    </div>
+                </div>
+                <!-- sanzaf div ends here -->
+            </div>
+            <!-- row div ends here -->
+        </div>
+        <!-- parent container of row div ends here -->
+
+        
+    </section>
+    <section class="container-fluid mt-5" id="Projects">
         <div class="container-fluid">
             <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Projects I've completed</h1>
             <h2 class="balthazar text-start display-6">Since starting at Life Choices coding academy, these are the projects that I've completed in order to practice the new skills that I learned.</h2>
@@ -96,30 +135,69 @@
         <div class="container mt-5 border">
             <p class="balthazar text-center bold">HTML and CSS projects</p>
             <div class="row d-flex justify-content-evenly">
-                <div class="col-6 col-md-4 mt-3">
+                <div class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
                         <p class="balthazar text-center bold card-title">Calculator</p>
-                        <img src="/calculator.jpg" alt="calculator" class="card-img m-auto">
+                        <img src="/calculator.png" alt="calculator" class="card-img m-auto">
                         <p class="balthazar card-text">This project was for practising basic css styling and a pre-cursor for javascript application</p>
+                        <div class="row d-flex justify-content-evenly border">
+                            <div class="col-2">
+                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
+                                <button class="darkestGreenTxt bg-white border">Netlify</button>
+                                </a>
+                            </div>
+                            <div class="col-2">
+                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
+                                <button class="darkestGreenBg border">Netlify</button>
+                                </a>
+                            </div>
+                        
+                        </div>
                     </div>
                     <!-- 1st card ends here -->
                 </div>
                 <!-- -4 column ends here -->
-                <div class="col-6 col-md-4 mt-3">
+                <div class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
-                        <p class="balthazar text-center bold card-title">Calculator</p>
-                        <img src="/calculator.jpg" alt="calculator" class="card-img m-auto">
+                        <p class="balthazar text-center bold card-title">Keyboard</p>
+                        <img src="/keyboardImg.png" alt="calculator" class="card-img m-auto">
                         <p class="balthazar card-text">This project was for practising basic css styling and a pre-cursor for javascript application</p>
+                        <div class="row d-flex justify-content-evenly border">
+                            <div class="col-2">
+                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
+                                <button class="darkestGreenTxt bg-white border">Netlify</button>
+                                </a>
+                            </div>
+                            <div class="col-2">
+                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
+                                <button class="darkestGreenBg border">Netlify</button>
+                                </a>
+                            </div>
+                        
+                        </div>
                     </div>
                     <!-- 1st card ends here -->
                 </div>
                 <!-- -4 column ends here -->
-                <div class="col-6 col-md-4 mt-3">
+                <div class="col-12 col-sm-6 col-md-4 mt-3">
                     <div class="card">
-                        <p class="balthazar text-center bold card-title">Calculator</p>
-                        <img src="/calculator.jpg" alt="calculator" class="card-img m-auto">
+                        <p class="balthazar text-center bold card-title">e-Commerce Site</p>
+                        <img src="/eCommerceSite.png" alt="calculator" class="card-img m-auto">
                         <!-- m-auto centers individual items -->
                         <p class="balthazar card-text">This project was for practising basic css styling and a pre-cursor for javascript application</p>
+                        <div class="row d-flex justify-content-evenly border">
+                            <div class="col-2">
+                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
+                                <button class="darkestGreenTxt bg-white border">Netlify</button>
+                                </a>
+                            </div>
+                            <div class="col-2">
+                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
+                                <button class="darkestGreenBg border">Netlify</button>
+                                </a>
+                            </div>
+                        
+                        </div>
                     </div>
                     <!-- 1st card ends here -->
                 </div>
@@ -131,7 +209,7 @@
         <div class="container border mt-4">
             <div class="row d-flex justify-content-evenly">
                 <p class="balthazar text-center bold">Bootstrap projects</p>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="container card">
                         <p class="balthazar text-center bold card-title">MobiCare</p>
                         <img src="/mobiCare.png" alt="MobiCare website" class="card-img m-auto">
@@ -154,7 +232,7 @@
                     <!-- individual card div ends here -->
                 </div>
                 <!-- column holding card div ends here -->
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="container card">
                         <p class="balthazar text-center bold card-title">MobiCare</p>
                         <img src="/mobiCare.png" alt="MobiCare website" class="card-img m-auto">
@@ -181,39 +259,7 @@
             <!-- row holding column divs ends here -->
         </div>
     </section>
-    <section class="container-fluid mt-4" id="Work">
-        <div class="container-fluid">
-            <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Work Experience</h1>
-        </div>
-        <div class="container mt-5 rounded">
-            <!-- NB TO NOTE!!! m-auto centers containers that AREN'T in a row while d-flex
-                 + justify-content combo works for and w//in a row -->
-            <div class="row d-flex justify-content-evenly">
-                <div class="col-3">
-                    <div class="container border">
-                        <p class="balthazar">2016-2017: Cashier & Floor manager</p>
-                    </div>
-                      
-                </div>
-                <div class="col-3">
-                    <div class="container border">
-                        <p class="balthazar">2018-present: Private tutor</p>
-                    </div>
-                    
-                </div>
-                <div class="col-3">
-                    <div class="container border">
-                        <p class="balthazar">2022: SANZAF facilitator for academic support</p> 
-                    </div>
-                </div>
-                <!-- sanzaf div ends here -->
-            </div>
-            <!-- row div ends here -->
-        </div>
-        <!-- parent container of row div ends here -->
-
-        
-    </section>
+    
     <section class="container-fluid mt-4" id="Testimonials">
         <div class="container-fluid">
             <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Testimonials</h1>
@@ -221,23 +267,30 @@
         <div class="carousel slide" id="testimonialsCarousel" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/GreenBg4.jpg" class="d-block w-100 carouselImg" alt="">
-                    <div class="carousel-caption">
-                        <h3 class="balthazar darkestGreenBg">Person 1</h3>
-                        <p class="balthazar darkestGreenBg">Nice things they have to say about me</p>
+                    <div class="d-flex justify-content-center">
+                        <img src="/Thandile.jpg" class="d-block carouselImg" alt="">
+                    </div>
+                    <div class="border">
+                        <h3 id="aboutPgBorder" class="balthazar text-center">Asithandile Tyulu</h3>
+                        <p id="aboutPgBorder" class="balthazar">"Naeema is an exceptional individual, her combination of unwavering diligence and hard work with a remarkable level of intelligence make her a standout professional. Her articulate communication skills further elevate her abilities in any endeavour."</p>
                     </div>
                     <!-- carousel caption closes -->
                 </div>
                 <!-- carousel item closes -->
+
                 <div class="carousel-item">
-                    <img src="/greenBg1.jpg" class="d-block w-100 carouselImg" alt="">
-                    <div class="carousel-caption">
-                        <h3 class="balthazar darkestGreenBg">Person 2</h3>
-                        <p class="balthazar darkestGreenBg">Nice things they have to say about me</p>
+                    <div class="d-flex justify-content-center">
+                        <img src="/Tyhiesha.png" class="d-block carouselImg" alt="">
+                    </div>
+                    <div class="border">
+                        <h3 id="aboutPgBorder" class="balthazar text-center">Tyhiesha Johnson</h3>
+                        <p id="aboutPgBorder" class="balthazar">"Naeema Omar is a solid problem-solver. With her logical approach and calm demeanor she identifies, analyzes and resolves both coding and practical issues. She has an impactful voice with a cheery energy and great adaptability within a team or group setting."</p>
                     </div>
                     <!-- carousel caption closes -->
                 </div>
                 <!-- carousel item closes -->
+                
+                
                 <div class="carousel-item">
                     <img src="/GreenBg2.jpg" class="d-block w-100 carouselImg" alt="">
                     <div class="carousel-caption">
@@ -263,54 +316,51 @@
     </section>
     <section class="container-fluid mt-4" id="Skills">
         <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Skills that I've developed</h1>
-        <h2 class="balthazar text-center display-4">Over the years I've had the opportunity to develop the following technical skills:</h2>
         <div class="container">
-            
+             <h2 class="balthazar text-center display-5">Over the years I've had the opportunity to develop the following technical skills:</h2>
         <div class="row d-flex justify-content-evenly">
             <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth">
+                <div class="container border techSkillsMinWidth mt-3">
                         <p>HTML</p>
                     <img src="/htmlIcon.png" alt="">
                     <p class="balthazar">Mastery: Proficient</p>
                 </div>
             </div>
             <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth">
+                <div class="container border techSkillsMinWidth mt-3">
                     <p>CSS</p>
                     <img src="/cssIcon.png" alt="">
                     <p class="balthazar">Mastery: Proficient</p>
                 </div>
             </div>
             <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth">
+                <div class="container border techSkillsMinWidth mt-3">
                     <p>Bootstrap</p>
                     <img src="/BootstrapIcon.png" alt="">
                     <p class="balthazar">Mastery: Intermediate </p>
                 </div>
             </div>
             <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth">
+                <div class="container border techSkillsMinWidth mt-3">
                     <p>C++</p>
                     <img src="/C++Icon.png" alt="">
                     <p class="balthazar">Mastery: Intermediate</p>
                 </div>
             </div>
             <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth">
+                <div class="container border techSkillsMinWidth mt-3">
                     <p>Python</p>
                     <img src="/pythonIcon.png" alt="">
                     <p class="balthazar">Mastery: Beginner</p>
                 </div>
             </div>
         </div>
-            </div>
             <!-- End of technical skills div -->
 
         <h2 class="balthazar text-center display-5">The following are the soft-skills that I'm most confident in:</h2>
-        <div class="container">
             <div class="row d-flex justify-content-evenly">
                 <div class="col-3 softSkillsMinWidth">
-                    <div class="container border softSkillsMinWidth">
+                    <div class="container border softSkillsMinWidth mt-3">
                         <p>Communication</p>
                         <p>I have well-developed communication skills since I'm very sociable and enjoy debating.</p>
                     </div>
@@ -318,7 +368,7 @@
                 </div>
                 <!-- closing communication column container -->
                 <div class="col-3 softSkillsMinWidth">
-                    <div class="container border softSkillsMinWidth">
+                    <div class="container border softSkillsMinWidth mt-3">
                         <p>Leadership</p>
                         <p>I am good at taking charge of a task, delegating the work and ensuring everyone is on the same page.</p>
                     </div>
@@ -326,7 +376,7 @@
                 </div>
                 <!-- closing leadership column container -->
                 <div class="col-3 softSkillsMinWidth">
-                    <div class="container border softSkillsMinWidth">
+                    <div class="container border softSkillsMinWidth mt-3">
                         <p>Problem solving</p>
                         <p>I genuinely enjoy the process of grappling with a problem, then planning and trying out different solutions until one works. </p>
                     </div>
@@ -335,71 +385,87 @@
                 <!-- closing problem solving column container -->
             </div>
             <!-- closing row itself -->
-        </div>
+    
         <!-- closing row's container -->
+        </div>
+       
     </section>
-    <section class="container-fluid mt-4" id="ContactMe">
+    <section class="container-fluid mt-5" id="ContactMe">
         <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Get in touch with me</h1>
         <div class="row"> 
             <!-- This div splits the pg in half -->
-            <div class="col-6">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-3">
                 <!-- This is the icons' 1/2 of the pg -->
                 <h1 class="ingridDarling text-center brighttGreenBg display-4 boxShadow">Contact me here</h1>
-                <div class="row mt-5 ">
+                <div class="row mt-3">
                     <!-- this is the 1st row for the icons -->
                     <div class="col-6">
-                        <img src="/WhatsappIcon.png" class="img-fluid darkestGreenBg iconMinHeight iconMaxWidth p-1" alt="">
+                        <img src="/WhatsappIcon.png" class="img-fluid darkestGreenBg contactIcons" alt="">
                     </div>
                     <!-- This is the whatsapp icon -->
                     <div class="col-6">
-                        <img src="/gmailIcon.png" class="img-fluid darkestGreenBg iconMinHeight iconMaxWidth" alt="">
+                        <img src="/gmailIcon.png" class="img-fluid darkestGreenBg contactIcons" alt="">
                     </div>
                     <!-- This is the gmail icon -->
                 </div>
-                <div class="row mt-5">
+                <div class="row mt-2">
                     <!-- this is the 2nd row for the icons -->
                     <div class="col-6">
-                        <img src="/gitHubIcon.png" class="img-fluid darkestGreenBg iconMinHeight iconMaxWidth p-1" alt="">
+                        <img src="/gitHubIcon.png" class="img-fluid darkestGreenBg contactIcons" alt="">
                     </div>
                     <!-- This is the github icon -->
                     <div class="col-6">
-                        <img src="/linkedInLogo.png" class="img-fluid darkestGreenBg iconMinHeight  iconMaxHeight w-25" alt="">
+                        <img src="/linkedInLogo.png" class="img-fluid darkestGreenBg contactIcons" alt="">
                     </div>
                     <!-- this is the linkedin icon -->
                 </div>
             </div>
             <!-- here ends the icons half of the pg -->
-            <div class="col-6">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-3">
                 <h3 class="ingridDarling text-center brighttGreenBg display-4 boxShadow">Alternatively, please complete the form below</h3>
                 <!-- here begins the contact me form -->
-                <form
-                id="form"
-                class="mt-5"
-                action="https://formspree.io/f/xaygazkl"
-                method="POST"
-              >                
-               <label>
-                  <textarea class="darkestGreenBg rounded-5 text-center" id="inputBox" name="name" placeholder="name"></textarea>
-                </label>
-                <br><br>
-                <label>
-                  <textarea class="darkestGreenBg rounded-5 text-center" id="inputBox" name="surname" placeholder="surname"></textarea>
-                </label>
-                <br><br>
-               <label>
-                  <input class="darkestGreenBg rounded-5 text-center" id="inputBox" type="email" name="email" placeholder="Eg:emailAddress@gmail.com">
-                </label>
-                <br><br>
-                <label>
-                  <textarea class="darkestGreenBg rounded-5 text-center" id="inputBox" name="message" placeholder="Type your message here"></textarea>
-                </label>
-                <button type="submit" class="rounded brighttGreenBg">Send</button>
-              </form>
+                <div class="container d-flex justify-content-center">
+                    <form id="form" class="m-auto" action="https://formspree.io/f/xaygazkl" method="POST">                
+                        <div>
+                            <label>
+                                <input class="darkestGreenBg rounded-4 text-center" id="name" name="name" placeholder="name"/>
+                            </label>
+                        </div>
+                          
+                        <div>
+                            <label>
+                                <input class="darkestGreenBg rounded-4 text-center" id="surname" name="surname" placeholder="surname"/>
+                            </label>
+                        </div>
+                       
+                        <div>
+
+                            <label>
+                                <input class="darkestGreenBg rounded-4 text-center" id="email" type="email" name="email" placeholder="Eg:emailAddress@gmail.com">
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <textarea class="darkestGreenBg rounded-4" placeholder="Type your message here"></textarea>
+                            </label>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn brighttGreenBg">Send</button>
+                        </div>
+                    </form>
+                </div>
+                
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="darkestGreenBg text-white d-flex justify-content-end mt-3 pe-2">
+            &copy; Naeema Omar, 2023
+        </div>
+        
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
