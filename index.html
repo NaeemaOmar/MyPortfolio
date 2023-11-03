@@ -1,471 +1,745 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Naeema Omar - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ingrid Darling">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Balthazar">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-</head>
-<body>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ingrid Darling"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Balthazar"
+    />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg darkestGreenBg sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand brighttGreenTxt" href="#">My Portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#Home" class="nav-link brighttGreenTxt">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#About" class="nav-link brighttGreenTxt">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Projects" class="nav-link brighttGreenTxt">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Testimonials" class="nav-link brighttGreenTxt">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Work" class="nav-link brighttGreenTxt">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Skills" class="nav-link brighttGreenTxt">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#ContactMe" class="nav-link brighttGreenTxt">Contact me</a>
-                </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand brighttGreenTxt" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" id="navIcon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#Home" class="nav-link brighttGreenTxt">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About" class="nav-link brighttGreenTxt">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Projects" class="nav-link brighttGreenTxt">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Testimonials" class="nav-link brighttGreenTxt"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#Work" class="nav-link brighttGreenTxt">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Skills" class="nav-link brighttGreenTxt">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ContactMe" class="nav-link brighttGreenTxt"
+                >Contact me</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-    <section class="container-fluid mt-5" id="Home">
-        <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Hello there!</h1>
+    <section class="container-fluid mt-3" id="Home">
+      <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">
+        Hello there!
+      </h1>
+      <div class="container">
         <div class="row d-flex justify-content-evenly">
-            <div class="col-6 mt-2 border mt-5 mb-5">
-                <img src="https://i.postimg.cc/JzF43K7J/landing-Pg-Pic.png" class="img-fluid brighttGreenBg p-2 landingPgPicWidth" alt="">
+            <div class="col-sm-6 mt-2 border mb-3">
+              <img
+                src="https://i.postimg.cc/JzF43K7J/landing-Pg-Pic.png"
+                class="img-fluid brighttGreenBg p-2 landingPgPicWidth"
+                alt=""
+              />
             </div>
-            <div class="col-6 mt-2 border mt-5 mb-5 landingPgTxtWidth">
-                <h1 class="ingridDarling text-center brighttGreenBg">Welcome to my online abode</h1>
-                <div class="container introTxtWidth border introTextYCenter ">
-                    <h1 class="balthazar text-center">I am <span class="darkestGreenTxt">Naeema Omar</span>,</h1>
-                    <h1 class="balthazar text-center">an aspiring Full-Stack developer.</h1>
-                </div>
-            </h1>
+            <div class="col-sm-6 mt-2 mb-3 landingPgTxtWidth">
+              <h1 class="ingridDarling text-center brighttGreenBg">
+                Welcome to my online abode
+              </h1>
+              <div class="container introTxtWidth " id="introTextYCenter">
+                <h1 class="balthazar text-center">
+                  I am <span class="darkestGreenTxt">Naeema Omar</span>,
+                </h1>
+                <h1 class="balthazar text-center">
+                  an aspiring Full-Stack developer.
+                </h1>
+              </div>
             </div>
-        </div>
-        <!-- div tag closing row div -->
+          </div>
+          <!-- div tag closing row div -->
+      </div>
+      
     </section>
     <section class="container-fluid mt-4" id="About">
-        <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">All about me...</h1>
-        <div class="container">
-            <div class="row d-flex justify-content-evenly">
-            <div id="aboutPgBorder" class="col-12 col-md-3 mt-3  rounded-5">
-                <h2 class="ingridDarling text-center display-2">Basic info</h2>
-                <p class="balthazar text-start">Name: Naeema Omar</p>  
-                <p class="balthazar text-start">D.O.B: 02/04/1999 (24yrs)</p> 
-                <p class="balthazar text-start">City: Cape Town</p>
-                <p class="balthazar text-start">Language: English (fluent), Afrikaans (read & write), Arabic (read & write)</p>  
-   
+      <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">
+        All about me...
+      </h1>
+      <div class="container">
+        <div class="row d-flex justify-content-evenly">
+          <div id="aboutPgBorder" class="col-12 col-md-3 mt-3 rounded-5">
+            <h2 class="ingridDarling text-center display-2">Basic info</h2>
+            <p class="balthazar text-start">Name: Naeema Omar</p>
+            <p class="balthazar text-start">D.O.B: 02/04/1999 (24yrs)</p>
+            <p class="balthazar text-start">City: Cape Town</p>
+            <p class="balthazar text-start">
+              Language: English (fluent), Afrikaans (read & write), Arabic (read
+              & write)
+            </p>
+          </div>
+          <div id="aboutPgBorder" class="col-12 col-md-4 mt-3 rounded-5">
+            <h2 class="ingridDarling text-center display-2">
+              Education history
+            </h2>
+            <p class="balthazar text-start">2015: NSC, Islamia College</p>
+            <p class="balthazar text-start">
+              2021-2022: BEng (civil), Stellenbosch University
+            </p>
+            <p class="balthazar text-start">
+              2023-present: full-stack development, Life Choices coding academy
+            </p>
+          </div>
             </div>
-            <div id="aboutPgBorder" class="col-12 col-md-4 mt-3 rounded-5">
-                <h2 class="ingridDarling text-center display-2">Education history</h2>
-                <p class="balthazar text-start">2015: NSC, Islamia College</p>
-                <p class="balthazar text-start">2021-2022: BEng (civil), Stellenbosch University</p>
-                <p class="balthazar text-start">2023-present: full-stack development, Life Choices coding academy</p>  
-    
-            </div>
-        </div>
         <!-- end of row 1 -->
-        <div class="mt-3 rounded-5" id="aboutPgBorder">
-            <h2 class="ingridDarling text-center display-2">Fun info about me</h2>
-            <p class="balthazar text-start">I am a curious and self-driven problem solver. I love learning new things and finding ways to apply that knowledge in a practical manner.</p>  
-            <p class="balthazar text-start mt-0">My hobbies include reading, running and hiking. The longest hike I've been on was a 5 hour hike in the Tygerberg Nature Reserve while the most challenging hike I've been on was the Cecelia Forest's waterfall trial. Admittedly, this was because we got extremely lost. A hike that is still on my bucket list is the Crystal Pools trail in Gordon's Bay.</p> 
-            <p class="balthazar text-start"></p> 
-
-        </div>
-        </div>
+        
+            <div class="row mt-3 rounded-5" id="aboutPgBorder">
+                <div class="col-12">
+                <h2 class="ingridDarling text-center display-2">Fun info about me</h2>
+                <p class="balthazar text-start">
+                    I am a curious and self-driven problem solver. I love learning new
+                    things and finding ways to apply that knowledge in a practical
+                    manner.
+                </p>
+                <p class="balthazar text-start mt-0">
+                    My hobbies include reading, running and hiking. The longest hike
+                    I've been on was a 5 hour hike in the Tygerberg Nature Reserve while
+                    the most challenging hike I've been on was the Cecelia Forest's
+                    waterfall trial. Admittedly, this was because we got extremely lost.
+                    A hike that is still on my bucket list is the Crystal Pools trail in
+                    Gordon's Bay.
+                </p>
+            </div>
+            </div>
+      </div>
         
     </section>
     <section class="container-fluid mt-4" id="Work">
-        <div class="container-fluid">
-            <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Work Experience</h1>
+        <h1
+          class="ingridDarling text-center brighttGreenBg display-1 boxShadow"
+        >
+          Work Experience
+        </h1>
+      <div class="container mt-3">
+        <!-- Overview container opens here -->
+        <div class="mx-auto quickOverview balthazar text-center display-6 brighttGreenBg boxShadow">
+          <h2 class="ingridDarling text-center display-2">Quick Overview</h2>
         </div>
-        <div class="container mt-5 rounded">
-            <!-- NB TO NOTE!!! m-auto centers containers that AREN'T in a row while d-flex
-                 + justify-content combo works for and w//in a row -->
-            <div class="row d-flex justify-content-evenly">
-                <div class="col-3">
-                    <div class="container rounded-5" id="aboutPgBorder">
-                        <p class="balthazar mt-2">2016-2017: Cashier & Floor manager</p>
-                    </div>
-                      
-                </div>
-                <div class="col-3">
-                    <div class="container rounded-5" id="aboutPgBorder">
-                        <p class="balthazar mt-2">2018-present: Private tutor</p>
-                    </div>
-                    
-                </div>
-                <div class="col-3">
-                    <div class="container rounded-5" id="aboutPgBorder">
-                        <p class="balthazar mt-2">2022: SANZAF facilitator for academic support</p> 
-                    </div>
-                </div>
-                <!-- sanzaf div ends here -->
-            </div>
-            <!-- row div ends here -->
+        <div class="row d-flex justify-content-between mx-2">
+          <div class="col-sm-3 col-md-3 rounded-5 mt-2" id="aboutPgBorder">
+            <p class="balthazar text-center">2016-2017</p>
+            <p class="balthazar text-center">Cashier, Floor manager</p>
+          </div>
+          <div class="col-sm-3 col-md-3  rounded-5 mt-2" id="aboutPgBorder">
+            <p class="balthazar text-center">2018-present</p>
+            <p class="balthazar text-center">Private tutor - self-employed</p>
+          </div>
+          <div class="col-sm-3 col-md-3 rounded-5 mt-2" id="aboutPgBorder">
+            <p class="balthazar text-center">2022</p>
+            <p class="balthazar text-center">Academic facilitator</p>
+          </div>
         </div>
-        <!-- parent container of row div ends here -->
-
-        
+      </div>
+      <!-- Overview container ends here -->
+      <div class="container mt-4 rounded-5" id="aboutPgBorder">
+        <!-- Explanation paragraph opens here -->
+        <div class="mt-2">
+          <h2 class="ingridDarling text-start display-2">Employment History</h2>
+          <p class="balthazar text-start">
+            After graduating highschool in 2015, I spent a year working at first
+            as a cashier and then as an assistant floor manager at a wholesaler
+            in Cape Town. I left that job at the end of the year due to the long
+            work commute and started working in my area as private tutor. I
+            continued am still doing that work presently as it is a flexible job
+            that allows me to pursue my studies without being a dependant.
+          </p>
+          <p class="balthazar text-start">
+            During the 2 years I was studying civil engineering, at Stellenbosch
+            University, I had a partial bursary with SANZAF so in 2022 when they
+            were looking for academic facilitators to tutor high schoolers as
+            part of their community support programs, I offered my services as I
+            already had 4 years experience as a tutor.
+          </p>
+        </div>
+      </div>
+      <!-- Explanation paragraph ends here -->
     </section>
     <section class="container-fluid mt-5" id="Projects">
-        <div class="container-fluid">
-            <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Projects I've completed</h1>
-            <h2 class="balthazar text-start display-6">Since starting at Life Choices coding academy, these are the projects that I've completed in order to practice the new skills that I learned.</h2>
-        </div>
-        <div class="container mt-5 border">
-            <p class="balthazar text-center bold">HTML and CSS projects</p>
-            <div class="row d-flex justify-content-evenly">
-                <div class="col-12 col-sm-6 col-md-4 mt-3">
-                    <div class="card">
-                        <p class="balthazar text-center bold card-title">Calculator</p>
-                        <img src="https://i.postimg.cc/yx8wb4vN/calculator.png" alt="calculator" class="card-img m-auto">
-                        <p class="balthazar card-text">This project was for practising basic css styling and a pre-cursor for javascript application</p>
-                        <div class="row d-flex justify-content-evenly border">
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenTxt bg-white border">Netlify</button>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenBg border">Netlify</button>
-                                </a>
-                            </div>
-                        
-                        </div>
-                    </div>
-                    <!-- 1st card ends here -->
+        <h1
+          class="ingridDarling text-center brighttGreenBg display-1 boxShadow">
+          Projects I've completed
+        </h1>
+      <div class="container-fluid">
+        <h2 class="balthazar text-start">
+          Since starting at Life Choices coding academy, these are the projects
+          that I've completed in order to practice the new skills that I
+          learned.
+        </h2>
+      </div>
+      <div class="container mt-5">
+        <p class="balthazar text-center bold">HTML and CSS projects</p>
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-12 col-sm-6 col-md-4 mt-3">
+            <div class="card" id="aboutPgBorder">
+              <p class="balthazar text-center bold card-title">Calculator</p>
+              <div class="first-cards">
+                <img
+                  src="https://i.postimg.cc/yx8wb4vN/calculator.png"
+                  alt="calculator"
+                  class="card-img m-auto"
+                />
+              </div>
+              <div class="row d-flex justify-content-evenly mt-2 mb-2">
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenTxt bg-white border-black">
+                      GitHub
+                    </button>
+                  </a>
                 </div>
-                <!-- -4 column ends here -->
-                <div class="col-12 col-sm-6 col-md-4 mt-3">
-                    <div class="card">
-                        <p class="balthazar text-center bold card-title">Keyboard</p>
-                        <img src="https://i.postimg.cc/yxRr510s/keyboard-Img.png" alt="keyboard" class="card-img m-auto">
-                        <p class="balthazar card-text">This project was for practising basic css styling and a pre-cursor for javascript application</p>
-                        <div class="row d-flex justify-content-evenly border">
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenTxt bg-white border">Netlify</button>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenBg border">Netlify</button>
-                                </a>
-                            </div>
-                        
-                        </div>
-                    </div>
-                    <!-- 1st card ends here -->
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenBg text-white">Netlify</button>
+                  </a>
                 </div>
-                <!-- -4 column ends here -->
-                <div class="col-12 col-sm-6 col-md-4 mt-3">
-                    <div class="card">
-                        <p class="balthazar text-center bold card-title">e-Commerce Site</p>
-                        <img src="https://i.postimg.cc/Qx90fdhz/e-Commerce-Site.png" alt="e-Commerce site" class="card-img m-auto">
-                        <!-- m-auto centers individual items -->
-                        <p class="balthazar card-text">This project was for practising basic css styling and a pre-cursor for javascript application</p>
-                        <div class="row d-flex justify-content-evenly border">
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenTxt bg-white border">Netlify</button>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenBg border">Netlify</button>
-                                </a>
-                            </div>
-                        
-                        </div>
-                    </div>
-                    <!-- 1st card ends here -->
-                </div>
-                <!-- -4 column ends here -->
+              </div>
             </div>
-            <!-- row div holding cards ends here -->
-        </div>
-        <!-- container div holding row ends here -->
-        <div class="container border mt-4">
-            <div class="row d-flex justify-content-evenly">
-                <p class="balthazar text-center bold">Bootstrap projects</p>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <div class="container card">
-                        <p class="balthazar text-center bold card-title">MobiCare</p>
-                        <img src="https://i.postimg.cc/x1r8zt6Z/mobiCare.png" alt="MobiCare website" class="card-img m-auto">
-                        <p class="balthazar card-text">This project was for practising basic css styling and a pre-cursor for javascript application</p>
-                        <div class="row d-flex justify-content-evenly border">
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenTxt bg-white border">Netlify</button>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenBg border">Netlify</button>
-                                </a>
-                            </div>
-                        
-                        </div>
-                        
-                    </div>
-                    <!-- individual card div ends here -->
+            <!-- 1st card ends here -->
+          </div>
+          <!-- -4 column ends here -->
+          <div class="col-12 col-sm-6 col-md-4 mt-3">
+            <div class="card" id="aboutPgBorder">
+              <p class="balthazar text-center bold card-title">Keyboard</p>
+              <div class="first-cards">
+                <img
+                  src="https://i.postimg.cc/yxRr510s/keyboard-Img.png"
+                  alt="keyboard"
+                  class="card-img m-auto"
+                />
+              </div>
+              <div class="row d-flex justify-content-evenly mt-2 mb-2">
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenTxt bg-white">
+                        GitHub
+                    </button>
+                  </a>
                 </div>
-                <!-- column holding card div ends here -->
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <div class="container card">
-                        <p class="balthazar text-center bold card-title">Netflix</p>
-                        <img src="https://i.postimg.cc/BbGwr8sN/netflix.png" alt="NetflixClone" class="card-img m-auto">
-                        <p class="balthazar card-text">This project was for practising basic css styling and a pre-cursor for javascript application</p>
-                        <div class="row d-flex justify-content-evenly border">
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenTxt bg-white border">Netlify</button>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html">
-                                <button class="darkestGreenBg border">Netlify</button>
-                                </a>
-                            </div>
-                        
-                        </div>
-                        
-                    </div>
-                    <!-- individual card div ends here -->
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenBg text-white">Netlify</button>
+                  </a>
                 </div>
-                <!-- column holding card div ends here -->
+              </div>
             </div>
-            <!-- row holding column divs ends here -->
+            <!-- 1st card ends here -->
+          </div>
+          <!-- -4 column ends here -->
+          <div class="col-12 col-sm-6 col-md-4 mt-3">
+            <div class="card" id="aboutPgBorder">
+              <p class="balthazar text-center bold card-title">
+                e-Commerce Site
+              </p>
+              <div class="first-cards">
+                <img
+                  src="https://i.postimg.cc/Qx90fdhz/e-Commerce-Site.png"
+                  alt="e-Commerce site"
+                  class="card-img m-auto"
+                />
+              </div>
+              <!-- m-auto centers individual items -->
+              <div class="row d-flex justify-content-evenly mt-2 mb-2">
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenTxt bg-white">
+                        GitHub
+                    </button>
+                  </a>
+                </div>
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenBg text-white">Netlify</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- 1st card ends here -->
+          </div>
+          <!-- -4 column ends here -->
         </div>
+        <!-- row div holding cards ends here -->
+      </div>
+      <!-- container div holding row ends here -->
+      <div class="container mt-4">
+        <div class="row d-flex justify-content-evenly">
+          <p class="balthazar text-center bold">Bootstrap projects</p>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-2">
+            <div class="container card" id="aboutPgBorder">
+              <p class="balthazar text-center bold card-title">MobiCare</p>
+              <div class="secondCards">
+                <img
+                src="https://i.postimg.cc/x1r8zt6Z/mobiCare.png"
+                alt="MobiCare website"
+                class="card-img m-auto"
+              />
+              </div>
+              
+              <div class="row d-flex justify-content-evenly mt-2 mb-2">
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenTxt bg-white">
+                        GitHub
+                    </button>
+                  </a>
+                </div>
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenBg text-white">Netlify</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- individual card div ends here -->
+          </div>
+          <!-- column holding card div ends here -->
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-2">
+            <div class="container card" id="aboutPgBorder">
+              <p class="balthazar text-center bold card-title">Netflix</p>
+              <div class="secondCards">
+                <img
+                src="https://i.postimg.cc/BbGwr8sN/netflix.png"
+                alt="NetflixClone"
+                class="card-img m-auto"
+              />
+              </div>
+              
+              <div class="row d-flex justify-content-evenly mt-2 mb-2">
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenTxt bg-white">
+                        GitHub
+                    </button>
+                  </a>
+                </div>
+                <div class="col-2">
+                  <a
+                    href="https://github.com/NaeemaOmar/girlCoders/blob/main/landingPage.html"
+                  >
+                    <button class="darkestGreenBg text-white">Netlify</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- individual card div ends here -->
+          </div>
+          <!-- column holding card div ends here -->
+        </div>
+        <!-- row holding column divs ends here -->
+      </div>
     </section>
-    
-    <section class="container-fluid mt-4" id="Testimonials">
-        <div class="container-fluid">
-            <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Testimonials</h1>
-        </div>
-        <div class="carousel slide" id="testimonialsCarousel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center">
-                        <img src="https://i.postimg.cc/8cLvJ52F/Thandile.jpg" class="d-block carouselImg" alt="">
-                    </div>
-                    <div class="border">
-                        <h3 id="aboutPgBorder" class="balthazar text-center">Asithandile Tyulu</h3>
-                        <p id="aboutPgBorder" class="balthazar">"Naeema is an exceptional individual, her combination of unwavering diligence and hard work with a remarkable level of intelligence make her a standout professional. Her articulate communication skills further elevate her abilities in any endeavour."</p>
-                    </div>
-                    <!-- carousel caption closes -->
-                </div>
-                <!-- carousel item closes -->
 
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="https://i.postimg.cc/C1GMbqKV/Tyhiesha.png" class="d-block carouselImg" alt="">
-                    </div>
-                    <div class="border">
-                        <h3 id="aboutPgBorder" class="balthazar text-center">Tyhiesha Johnson</h3>
-                        <p id="aboutPgBorder" class="balthazar">"Naeema Omar is a solid problem-solver. With her logical approach and calm demeanor she identifies, analyzes and resolves both coding and practical issues. She has an impactful voice with a cheery energy and great adaptability within a team or group setting."</p>
-                    </div>
-                    <!-- carousel caption closes -->
-                </div>
-                <!-- carousel item closes -->
-                
-                
-                <div class="carousel-item">
-                    <img src="/GreenBg2.jpg" class="d-block w-100 carouselImg" alt="">
-                    <div class="carousel-caption">
-                        <h3 class="balthazar darkestGreenBg">Person 3</h3>
-                        <p class="balthazar darkestGreenBg">Nice things they have to say about me</p>
-                    </div>
-                    <!-- carousel caption closes -->
-                </div>
-                <!-- carousel item closes -->
+    <section class="container-fluid mt-4" id="Testimonials">
+        <h1
+          class="ingridDarling text-center brighttGreenBg display-1 boxShadow"
+        >
+          Testimonials
+        </h1>
+      <div
+        class="carousel slide mt-5"
+        id="testimonialsCarousel"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://i.postimg.cc/8cLvJ52F/Thandile.jpg"
+                class="d-block carouselImg"
+                alt=""
+              />
             </div>
-            <!-- carousel wrapper closes -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+            <div class="border">
+              <h3 id="aboutPgBorder" class="balthazar text-center">
+                Asithandile Tyulu - Peer
+              </h3>
+              <p id="aboutPgBorder" class="balthazar">
+                "Naeema's combination of
+                unwavering diligence and hard work combined with her remarkable level of
+                intelligence make her a standout professional. Her articulate
+                communication skills further elevate her abilities."
+              </p>
+            </div>
+            <!-- carousel caption closes -->
+          </div>
+          <!-- carousel item closes -->
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://i.postimg.cc/C1GMbqKV/Tyhiesha.png"
+                class="d-block carouselImg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h3 id="aboutPgBorder" class="balthazar text-center">
+                Tyhiesha Johnson - Peer
+              </h3>
+              <p id="aboutPgBorder" class="balthazar">
+                "Naeema Omar is a solid problem-solver. With her logical
+                approach and calm demeanor she identifies, analyzes and resolves
+                both coding and practical issues. She has an impactful voice
+                with a cheery energy and great adaptability within a team or
+                group setting."
+              </p>
+            </div>
+            <!-- carousel caption closes -->
+          </div>
+          <!-- carousel item closes -->
+
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://i.postimg.cc/sXbHJc30/matthew.png"
+                class="d-block carouselImg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h3 id="aboutPgBorder" class="balthazar text-center">
+                Matthew Brown - Lecturer
+              </h3>
+              <p id="aboutPgBorder" class="balthazar">
+                "Naeema is consistent, dedicated and hardworking. She is always willing to learn and has a positive attitude towards learning which facilitates her growth and allows for creativity in her work."
+              </p>
+            </div>
+            <!-- carousel caption closes -->
+          </div>
+          <!-- carousel item closes -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://i.postimg.cc/02Ny5M5H/IMG-6929.jpg"
+                class="d-block carouselImg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h3 id="aboutPgBorder" class="balthazar text-center">
+                Ntando Nokilana - Peer
+              </h3>
+              <p id="aboutPgBorder" class="balthazar">
+                "Naeema is a highly dedicated young woman. She approaches every task with grace, intelligence, and unwavering commitment. Her remarkable work ethic permeates all her endeavours, and her ability to quickly adapt is truly impressive."
+              </p>
+            </div>
+            <!-- carousel caption closes -->
+          </div>
+          <!-- carousel item closes -->
+
         </div>
-        <!-- carousel container closes -->
-        
+        <!-- carousel wrapper closes -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonialsCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonialsCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel container closes -->
     </section>
     <section class="container-fluid mt-4" id="Skills">
-        <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Skills that I've developed</h1>
-        <div class="container">
-             <h2 class="balthazar text-center display-5">Over the years I've had the opportunity to develop the following technical skills:</h2>
+      <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">
+        Skills that I've developed
+      </h1>
+      <div class="container">
+        <h2 class="balthazar text-center mt-3">
+          Over the years I've had the opportunity to develop the following
+          technical skills:
+        </h2>
         <div class="row d-flex justify-content-evenly">
-            <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth mt-3">
-                        <p>HTML</p>
-                    <img src="https://i.postimg.cc/t4QPjhVh/htmlIcon.png" alt="">
-                    <p class="balthazar">Mastery: Proficient</p>
-                </div>
+          <div class="col-2 techSkillsMinWidth">
+            <div class="container techSkillsMinWidth mt-3">
+              <p class="balthazar bold">HTML</p>
+              <img src="https://i.postimg.cc/t4QPjhVh/htmlIcon.png" alt="" />
+              <p class="balthazar">Mastery: Proficient</p>
             </div>
-            <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth mt-3">
-                    <p>CSS</p>
-                    <img src="https://i.postimg.cc/28BcG7Dv/cssIcon.png" alt="">
-                    <p class="balthazar">Mastery: Proficient</p>
-                </div>
+          </div>
+          <div class="col-2 techSkillsMinWidth">
+            <div class="container techSkillsMinWidth mt-3">
+              <p class="balthazar bold">CSS</p>
+              <img src="https://i.postimg.cc/28BcG7Dv/cssIcon.png" alt="" />
+              <p class="balthazar">Mastery: Proficient</p>
             </div>
-            <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth mt-3">
-                    <p>Bootstrap</p>
-                    <img src="https://i.postimg.cc/x19bF9mQ/Bootstrap-Icon.png" alt="">
-                    <p class="balthazar">Mastery: Intermediate </p>
-                </div>
+          </div>
+          <div class="col-2 techSkillsMinWidth">
+            <div class="container techSkillsMinWidth mt-3">
+              <p class="balthazar bold">Bootstrap</p>
+              <img
+                src="https://i.postimg.cc/x19bF9mQ/Bootstrap-Icon.png"
+                alt=""
+              />
+              <p class="balthazar">Mastery: Intermediate</p>
             </div>
-            <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth mt-3">
-                    <p>C++</p>
-                    <img src="https://i.postimg.cc/sDrBv3wW/C-Icon.png" alt="">
-                    <p class="balthazar">Mastery: Intermediate</p>
-                </div>
+          </div>
+          <div class="col-2 techSkillsMinWidth">
+            <div class="container techSkillsMinWidth mt-3">
+              <p class="balthazar bold">C++</p>
+              <img src="https://i.postimg.cc/sDrBv3wW/C-Icon.png" alt="" />
+              <p class="balthazar">Mastery: Intermediate</p>
             </div>
-            <div class="col-2 techSkillsMinWidth">
-                <div class="container border techSkillsMinWidth mt-3">
-                    <p>Python</p>
-                    <img src="https://i.postimg.cc/YCyqf7fb/python-Icon.png" alt="">
-                    <p class="balthazar">Mastery: Beginner</p>
-                </div>
+          </div>
+          <div class="col-2 techSkillsMinWidth">
+            <div class="container techSkillsMinWidth mt-3">
+              <p class="balthazar bold">Python</p>
+              <img src="https://i.postimg.cc/YCyqf7fb/python-Icon.png" alt="" />
+              <p class="balthazar">Mastery: Beginner</p>
             </div>
+          </div>
         </div>
-            <!-- End of technical skills div -->
+        <!-- End of technical skills div -->
+            <div id="horizontalLine"></div>
+        <h2 class="balthazar text-center mt-3">
+          The following are the soft-skills that I'm most confident in:
+        </h2>
+        <div class="row d-flex justify-content-evenly">
+          
+          <div class="col-3 softSkillsMinWidth">
+            <div class="container softSkillsMinWidth mt-3" id="aboutPgBorder">
+              <p class="balthazar bold">Leadership</p>
+              <p class="balthazar">
+                I am good at taking charge of a task and
+                ensuring  that everyone is on the same page.
+              </p>
+            </div>
+            <!-- closing txt container -->
+          </div>
+          <!-- closing leadership column container -->
 
-        <h2 class="balthazar text-center display-5">The following are the soft-skills that I'm most confident in:</h2>
-            <div class="row d-flex justify-content-evenly">
-                <div class="col-3 softSkillsMinWidth">
-                    <div class="container border softSkillsMinWidth mt-3">
-                        <p>Communication</p>
-                        <p>I have well-developed communication skills since I'm very sociable and enjoy debating.</p>
-                    </div>
-                    <!-- closing txt container -->
-                </div>
-                <!-- closing communication column container -->
-                <div class="col-3 softSkillsMinWidth">
-                    <div class="container border softSkillsMinWidth mt-3">
-                        <p>Leadership</p>
-                        <p>I am good at taking charge of a task, delegating the work and ensuring everyone is on the same page.</p>
-                    </div>
-                    <!-- closing txt container -->
-                </div>
-                <!-- closing leadership column container -->
-                <div class="col-3 softSkillsMinWidth">
-                    <div class="container border softSkillsMinWidth mt-3">
-                        <p>Problem solving</p>
-                        <p>I genuinely enjoy the process of grappling with a problem, then planning and trying out different solutions until one works. </p>
-                    </div>
-                    <!-- closing txt container -->
-                </div>
-                <!-- closing problem solving column container -->
+          <div class="col-3 softSkillsMinWidth">
+            <div class="container softSkillsMinWidth mt-3" id="aboutPgBorder">
+              <p class="balthazar bold">Communication</p>
+              <p class="balthazar">
+                I have well-developed communication skills since I'm very
+                sociable and enjoy debating.
+              </p>
             </div>
-            <!-- closing row itself -->
-    
-        <!-- closing row's container -->
+            <!-- closing communication container -->
+          </div>
+          <!-- closing communication column container -->
+
+          <div class="col-3 softSkillsMinWidth">
+            <div class="container softSkillsMinWidth mt-3" id="aboutPgBorder">
+              <p class="balthazar bold">Problem solving</p>
+              <p class="balthazar">
+                I enjoy the process of grappling with a problem, as well as
+                planning and trying out different solutions.
+              </p>
+            </div>
+            <!-- closing txt container -->
+          </div>
+          <!-- closing problem solving column container -->
         </div>
-       
+        <!-- closing row itself -->
+
+        <!-- closing row's container -->
+      </div>
     </section>
     <section class="container-fluid mt-5" id="ContactMe">
-        <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">Get in touch with me</h1>
-        <div class="row"> 
-            <!-- This div splits the pg in half -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-3">
-                <!-- This is the icons' 1/2 of the pg -->
-                <h1 class="ingridDarling text-center brighttGreenBg display-4 boxShadow">Contact me here</h1>
-                <div class="row mt-3">
-                    <!-- this is the 1st row for the icons -->
-                    <div class="col-6">
-                        <img src="https://i.postimg.cc/9FLWC2SC/Whatsapp-Icon.png" class="img-fluid darkestGreenBg contactIcons" alt="">
-                    </div>
-                    <!-- This is the whatsapp icon -->
-                    <div class="col-6">
-                        <img src="https://i.postimg.cc/xdrBSF09/gmail-Icon.png" class="img-fluid darkestGreenBg contactIcons" alt="">
-                    </div>
-                    <!-- This is the gmail icon -->
-                </div>
-                <div class="row mt-2">
-                    <!-- this is the 2nd row for the icons -->
-                    <div class="col-6">
-                        <img src="https://i.postimg.cc/C5Z45SNX/git-Hub-Icon.png" class="img-fluid darkestGreenBg contactIcons" alt="">
-                    </div>
-                    <!-- This is the github icon -->
-                    <div class="col-6">
-                        <img src="https://i.postimg.cc/BvqcDxpx/linked-In-Logo.png" class="img-fluid darkestGreenBg contactIcons" alt="">
-                    </div>
-                    <!-- this is the linkedin icon -->
-                </div>
+      <h1 class="ingridDarling text-center brighttGreenBg display-1 boxShadow">
+        Get in touch with me
+      </h1>
+      <div class="row">
+        <!-- This div splits the pg in half -->
+        <div class="col-12 col-sm-6 mt-3">
+          <!-- This is the icons' 1/2 of the pg -->
+          <h1
+            class="ingridDarling text-center brighttGreenBg display-4 boxShadow"
+          >
+            Contact me here
+          </h1>
+          <div class="row mt-3 p-5">
+            <!-- this is the 1st row for the icons -->
+            <div class="col-6">
+              <img
+                src="https://i.postimg.cc/9FLWC2SC/Whatsapp-Icon.png"
+                class="img-fluid darkestGreenBg contactIcons"
+                alt=""
+              />
             </div>
-            <!-- here ends the icons half of the pg -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-3">
-                <h3 class="ingridDarling text-center brighttGreenBg display-4 boxShadow">Alternatively, please complete the form below</h3>
-                <!-- here begins the contact me form -->
-                <div class="container d-flex justify-content-center">
-                    <form id="form" class="m-auto" action="https://formspree.io/f/xaygazkl" method="POST">                
-                        <div>
-                            <label>
-                                <input class="darkestGreenBg rounded-4 text-center text-white" id="name" name="name" placeholder="name"/>
-                            </label>
-                        </div>
-                          
-                        <div>
-                            <label>
-                                <input class="darkestGreenBg rounded-4 text-center text-white" id="surname" name="surname" placeholder="surname"/>
-                            </label>
-                        </div>
-                       
-                        <div>
-
-                            <label>
-                                <input class="darkestGreenBg rounded-4 text-center text-white" id="email" type="email" name="email" placeholder="Eg:emailAddress@gmail.com">
-                            </label>
-                        </div>
-                        <div>
-                            <label>
-                                <textarea class="darkestGreenBg rounded-4 text-center text-white" placeholder="Type your message here"></textarea>
-                            </label>
-                        </div>
-                        <div>
-                            <button type="submit" class="btn brighttGreenBg">Send</button>
-                        </div>
-                    </form>
-                </div>
-                
+            <!-- This is the whatsapp icon -->
+            <div class="col-6">
+              <img
+                src="https://i.postimg.cc/xdrBSF09/gmail-Icon.png"
+                class="img-fluid darkestGreenBg contactIcons"
+                alt=""
+              />
             </div>
+            <!-- This is the gmail icon -->
+          </div>
+          <div class="row mt-2 p-5">
+            <!-- this is the 2nd row for the icons -->
+            <div class="col-6">
+              <img
+                src="https://i.postimg.cc/C5Z45SNX/git-Hub-Icon.png"
+                class="img-fluid darkestGreenBg contactIcons"
+                alt=""
+              />
+            </div>
+            <!-- This is the github icon -->
+            <div class="col-6">
+              <img
+                src="https://i.postimg.cc/BvqcDxpx/linked-In-Logo.png"
+                class="img-fluid darkestGreenBg contactIcons"
+                alt=""
+              />
+            </div>
+            <!-- this is the linkedin icon -->
+          </div>
         </div>
+        <!-- here ends the icons half of the pg -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-3">
+          <h3
+            class="ingridDarling text-center brighttGreenBg display-4 boxShadow"
+          >
+            Alternatively, please complete the form below
+          </h3>
+          <!-- here begins the contact me form -->
+          <div class="container d-flex justify-content-center p-5">
+            <form
+              id="form"
+              class="m-auto"
+              action="https://formspree.io/f/xaygazkl"
+              method="POST"
+            >
+              <div>
+                <label>
+                  <input
+                    class="darkestGreenBg rounded-4 text-center text-white placeholderColor"
+                    id="name"
+                    name="name"
+                    placeholder="name"
+                  />
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  <input
+                    class="darkestGreenBg rounded-4 text-center text-white placeholderColor"
+                    id="surname"
+                    name="surname"
+                    placeholder="surname"
+                  />
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  <input
+                    class="darkestGreenBg rounded-4 text-center text-white placeholderColor"
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Eg:emailAddress@gmail.com"
+                  />
+                </label>
+              </div>
+              <div>
+                <label>
+                  <textarea
+                    class="darkestGreenBg rounded-4 text-center text-white placeholderColor"
+                    placeholder="Type your message here"
+                  ></textarea>
+                </label>
+              </div>
+              <div>
+                <button type="submit" class="btn brighttGreenBg">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="darkestGreenBg text-white d-flex justify-content-end mt-3 pe-2">
-            &copy; Naeema Omar, 2023
-        </div>
-        
+      <div
+        class="darkestGreenBg text-white d-flex justify-content-end mt-3 pe-2"
+      >
+        &copy; Naeema Omar, 2023
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
